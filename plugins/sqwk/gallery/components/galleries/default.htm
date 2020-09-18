@@ -1,0 +1,12 @@
+<ul class="galleries">
+    {% for gallery in galleries %}
+        <li>
+            <a href="{{gallery.url}}">
+                <figure>
+                    <img src="{{ gallery.images[0].path }}" alt="{{gallery.name}}" />
+                    <figcaption>{{gallery.name}}</figcaption>
+                </figure>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

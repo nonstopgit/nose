@@ -1,0 +1,58 @@
+1600440977a:1:{s:9:"menu.yaml";a:7:{s:8:"fileName";s:9:"menu.yaml";s:7:"content";s:1169:"items:
+    -
+        title: domov
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: domov
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'o meni'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: o-meni
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: kariera
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: kariera
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: klub
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: klub
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: media
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: media
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: menu
+";s:5:"mtime";i:1600171181;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

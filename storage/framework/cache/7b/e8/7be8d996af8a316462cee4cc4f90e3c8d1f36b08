@@ -1,0 +1,140 @@
+1600440976a:1:{s:9:"media.htm";a:7:{s:8:"fileName";s:9:"media.htm";s:7:"content";s:2962:"[viewBag]
+title = "media"
+url = "/media"
+layout = "kariera"
+is_hidden = 0
+navigation_hidden = 0
+==
+<h1>Media</h1>
+
+<ul class="nav nav-pills mb-3" id="pills-tab">
+	<li class="nav-item"><a aria-controls="slike" aria-selected="false" class="nav-link active" data-toggle="pill" href="#pills-slike" id="pills-slike-tab">slike</a></li>
+	<li class="nav-item"><a aria-controls="video" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-video" id="pills-video-tab">video</a></li>
+	<li class="nav-item active"><a aria-controls="kliping" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-kliping" id="pills-kliping-tab">kliping</a></li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+	<div aria-labelledby="pills-slike-tab" class="tab-pane fade show" id="pills-slike">
+		<div class="row">
+			<div class="col-12">
+				<figure data-inspector-id="inspectorid-1000844700716" data-property-galleryname="slike" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-video-tab" class="tab-pane fade" id="pills-video">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/G23lqiXSbsw" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/OgVaT2EG82g" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/UrPrBwGYapQ" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/x3uv5W0Xn6c" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/ktD00n2k4ec" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/g39eaWDkdb8" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-kliping-tab" class="tab-pane fade active in" id="pills-kliping">
+		<div class="row">
+			<div class="col">
+				<figure data-inspector-id="inspectorid-363954579840" data-property-galleryname="kliping" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+</div>";s:5:"mtime";i:1600434642;s:6:"markup";s:2856:"<h1>Media</h1>
+
+<ul class="nav nav-pills mb-3" id="pills-tab">
+	<li class="nav-item"><a aria-controls="slike" aria-selected="false" class="nav-link active" data-toggle="pill" href="#pills-slike" id="pills-slike-tab">slike</a></li>
+	<li class="nav-item"><a aria-controls="video" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-video" id="pills-video-tab">video</a></li>
+	<li class="nav-item active"><a aria-controls="kliping" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-kliping" id="pills-kliping-tab">kliping</a></li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+	<div aria-labelledby="pills-slike-tab" class="tab-pane fade show" id="pills-slike">
+		<div class="row">
+			<div class="col-12">
+				<figure data-inspector-id="inspectorid-1000844700716" data-property-galleryname="slike" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-video-tab" class="tab-pane fade" id="pills-video">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/G23lqiXSbsw" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/OgVaT2EG82g" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/UrPrBwGYapQ" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/x3uv5W0Xn6c" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/ktD00n2k4ec" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/g39eaWDkdb8" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-kliping-tab" class="tab-pane fade active in" id="pills-kliping">
+		<div class="row">
+			<div class="col">
+				<figure data-inspector-id="inspectorid-363954579840" data-property-galleryname="kliping" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:5:"media";s:3:"url";s:6:"/media";s:6:"layout";s:7:"kariera";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:2856:"<h1>Media</h1>
+
+<ul class="nav nav-pills mb-3" id="pills-tab">
+	<li class="nav-item"><a aria-controls="slike" aria-selected="false" class="nav-link active" data-toggle="pill" href="#pills-slike" id="pills-slike-tab">slike</a></li>
+	<li class="nav-item"><a aria-controls="video" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-video" id="pills-video-tab">video</a></li>
+	<li class="nav-item active"><a aria-controls="kliping" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-kliping" id="pills-kliping-tab">kliping</a></li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+	<div aria-labelledby="pills-slike-tab" class="tab-pane fade show" id="pills-slike">
+		<div class="row">
+			<div class="col-12">
+				<figure data-inspector-id="inspectorid-1000844700716" data-property-galleryname="slike" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-video-tab" class="tab-pane fade" id="pills-video">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/G23lqiXSbsw" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/OgVaT2EG82g" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/UrPrBwGYapQ" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/x3uv5W0Xn6c" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/ktD00n2k4ec" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4 embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item embed-responsive-4by3" src="https://www.youtube.com/embed/g39eaWDkdb8" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div aria-labelledby="pills-kliping-tab" class="tab-pane fade active in" id="pills-kliping">
+		<div class="row">
+			<div class="col">
+				<figure data-inspector-id="inspectorid-363954579840" data-property-galleryname="kliping" data-snippet="gallery-partial">&nbsp;</figure>
+			</div>
+		</div>
+	</div>
+</div>";}}

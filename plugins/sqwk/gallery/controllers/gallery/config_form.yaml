@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Gallery
+
+# Model Form Field configuration
+form: $/sqwk/gallery/models/gallery/fields.yaml
+
+# Model Class name
+modelClass: Sqwk\Gallery\Models\Gallery
+
+# Default redirect location
+defaultRedirect: sqwk/gallery/gallery
+
+# Create page
+create:
+    title: Create Gallery
+    redirect: sqwk/gallery/gallery/update/:id
+    redirectClose: sqwk/gallery/gallery
+
+# Update page
+update:
+    title: Edit Gallery
+    redirect: sqwk/gallery/gallery
+    redirectClose: sqwk/gallery/gallery
+
+# Preview page
+preview:
+    title: Preview Gallery

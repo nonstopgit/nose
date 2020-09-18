@@ -1,0 +1,32 @@
+title = "Novica"
+url = "/novica/:slug"
+layout = "default"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "novica"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 20
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "novice"
+postPage = "novica"
+==
+<div class="row">
+    <div class="col-12 col-md-8">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.published_at|date("d.m.Y") }}</p>
+        {{ post.content_html | raw }}
+    </div>
+    <div class="col-12 col-md-4">
+        <ul>
+        {% for post in posts %}
+            <li><a href="{{ post.slug }}">{{ post.title }}</a><br>{{ posts.published_at|date("d.m.Y") }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/novice">Arhiv novic</a>
+    </div>
+</div>

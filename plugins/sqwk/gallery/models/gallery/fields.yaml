@@ -1,0 +1,17 @@
+fields:
+    name:
+        span: auto
+        label: sqwk.gallery::lang.column.name
+        required: true
+    slug:
+        span: auto
+        label: Slug
+        preset: name
+        required: true
+    description:
+        span: full
+        label: sqwk.gallery::lang.column.description
+    images:
+      label: sqwk.gallery::lang.column.images
+      type: fileupload
+      mode: image

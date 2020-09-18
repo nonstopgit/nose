@@ -1,0 +1,79 @@
+1600440976a:1:{s:11:"gallery.htm";a:8:{s:8:"fileName";s:11:"gallery.htm";s:7:"content";s:2158:"description = "Gallery - Partial"
+
+[viewBag]
+snippetCode = "gallery-partial"
+snippetName = "Gallery Partial"
+snippetProperties[galleryname][title] = "galleryname"
+snippetProperties[galleryname][type] = "dropdown"
+snippetProperties[galleryname][default] = "omeni"
+snippetProperties[galleryname][options][o-meni] = "o-meni"
+snippetProperties[galleryname][options][klub] = "klub"
+
+[Gallery]
+idGallery = "{{ galleryname }}"
+slug = "{{ :slug }}"
+maxDimension = 640
+==
+{#<h2>--{{ galleryname }}--</h2>#}
+<h2>Foto</h2>
+<div class="row gallery" id="lg-{{ galleryname }}">
+	{% if gallery.images %}		
+		{% for image in gallery.images %}
+			<div class="col-6 col-sm-4 col-md-3 col-lg-2 cell" data-src="{{image.path}}" data-sub-html="{{image.title}}">
+				<a href="" title="{{image.title}}"><div class="box" style="background:url({{image.path|resize(Gallery.properties.maxDimension)}}) no-repeat 50% 50%; background-size: cover;"></div></a>
+			</div>
+		{% endfor %}
+	{% endif %}
+</div>
+
+{% put styles %}
+    <link href="{{ 'assets/vendor/lightgallery/dist/css/lightgallery.css'|theme }}" rel="stylesheet" />
+{% endput %}
+{% put scripts %}
+	<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+	<script>
+		lightGallery(document.getElementById('lg-{{ galleryname }}'));
+		/*$('#lightgallery').lightGallery({
+			thumbnail: true,
+			animateThumb : true
+		}); */
+	</script>
+{% endput %}";s:5:"mtime";i:1600433925;s:6:"markup";s:1679:"{#<h2>--{{ galleryname }}--</h2>#}
+<h2>Foto</h2>
+<div class="row gallery" id="lg-{{ galleryname }}">
+	{% if gallery.images %}		
+		{% for image in gallery.images %}
+			<div class="col-6 col-sm-4 col-md-3 col-lg-2 cell" data-src="{{image.path}}" data-sub-html="{{image.title}}">
+				<a href="" title="{{image.title}}"><div class="box" style="background:url({{image.path|resize(Gallery.properties.maxDimension)}}) no-repeat 50% 50%; background-size: cover;"></div></a>
+			</div>
+		{% endfor %}
+	{% endif %}
+</div>
+
+{% put styles %}
+    <link href="{{ 'assets/vendor/lightgallery/dist/css/lightgallery.css'|theme }}" rel="stylesheet" />
+{% endput %}
+{% put scripts %}
+	<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+	<script>
+		lightGallery(document.getElementById('lg-{{ galleryname }}'));
+		/*$('#lightgallery').lightGallery({
+			thumbnail: true,
+			animateThumb : true
+		}); */
+	</script>
+{% endput %}";s:4:"code";N;s:11:"description";s:17:"Gallery - Partial";s:7:"viewBag";a:3:{s:11:"snippetCode";s:15:"gallery-partial";s:11:"snippetName";s:15:"Gallery Partial";s:17:"snippetProperties";a:1:{s:11:"galleryname";a:4:{s:5:"title";s:11:"galleryname";s:4:"type";s:8:"dropdown";s:7:"default";s:5:"omeni";s:7:"options";a:2:{s:6:"o-meni";s:6:"o-meni";s:4:"klub";s:4:"klub";}}}}s:7:"Gallery";a:3:{s:9:"idGallery";s:17:"{{ galleryname }}";s:4:"slug";s:11:"{{ :slug }}";s:12:"maxDimension";s:3:"640";}}}

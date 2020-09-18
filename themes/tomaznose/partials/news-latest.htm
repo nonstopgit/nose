@@ -1,0 +1,19 @@
+description = "News latest"
+
+[viewBag]
+snippetCode = "news-latest"
+snippetName = "News latest"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "novice"
+postPage = "novice"
+==
+{% for post in blogPosts.posts %}
+    <a href="novica/{{ post.slug }}">{{ post.title }}</a><br>
+{% endfor %}
+
+{#{ d(blogPosts) }#}{#% component 'blogPosts' %#}

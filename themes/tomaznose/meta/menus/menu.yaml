@@ -1,0 +1,57 @@
+items:
+    -
+        title: domov
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: domov
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'o meni'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: o-meni
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: kariera
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: kariera
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: klub
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: klub
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: media
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: media
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: menu

@@ -1,0 +1,27 @@
+<ul class="gallery">
+	{% for image in __SELF__.gallery.images %}
+		<li>
+			{% if image.title %}
+				<figure>
+					{% if __SELF__.imageResizerInstalled %}
+						<img title="{{image.title}}" src="{{image.path|resize(__SELF__.property('maxDimension'))}}" alt="">
+					{% else %}
+						<img title="{{image.title}}" src="{{image.path}}" alt="">
+					{% endif %}
+					{% if image.description %}
+						<figcaption>{{image.title}}: {{image.description}}</figcaption>
+					{% else %}
+						<figcaption>{{image.title}}</figcaption>
+					{% endif %}
+				</figure>
+			{% else %}
+				{% if __SELF__.imageResizerInstalled %}
+					<img src="{{image.path|resize(__SELF__.property('maxDimension'))}}" alt="">
+				{% else %}
+					<img src="{{image.path}}" alt="">
+				{% endif %}
+			{% endif %}
+
+		</li>
+	{% endfor %}
+</ul>

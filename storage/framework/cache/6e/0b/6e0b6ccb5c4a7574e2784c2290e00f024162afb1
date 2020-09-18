@@ -1,0 +1,36 @@
+1600440277a:1:{s:19:"kariera_rnd-img.htm";a:6:{s:8:"fileName";s:19:"kariera_rnd-img.htm";s:7:"content";s:712:"[viewBag]
+snippetCode = "kariera-random-image"
+snippetName = "Kariera - random image"
+==
+<img src="/storage/app/media/kariera/{{ random(['splash_desno2.jpg',
+    'splash_desno3.jpg',
+    'splash_desno4.jpg',
+    'splash-desno_16-6-09-1.jpg',
+    'splash-desno_16-6-09-2.jpg',
+    'splash-desno_16-6-09-3.jpg',
+    'splash-desno_16-6-09-4.jpg',
+    'splash-desno_16-6-09-5.jpg',
+    'splash-desno_16-6-09-6.jpg',
+    'splash-desno_16-6-09-7.jpg',
+    'splash-desno_16-6-09-8.jpg',
+    'splash-desno_16-6-09-9.jpg',
+    'splash-desno_16-6-09-10.jpg',
+    'splash-desno_16-6-09-11.jpg',
+    'splash-desno_16-6-09-13.jpg',
+    'splash-desno_16-6-09-14.jpg']) }}" class="fr-fic fr-dib img-fluid">
+";s:5:"mtime";i:1600367082;s:6:"markup";s:617:"<img src="/storage/app/media/kariera/{{ random(['splash_desno2.jpg',
+    'splash_desno3.jpg',
+    'splash_desno4.jpg',
+    'splash-desno_16-6-09-1.jpg',
+    'splash-desno_16-6-09-2.jpg',
+    'splash-desno_16-6-09-3.jpg',
+    'splash-desno_16-6-09-4.jpg',
+    'splash-desno_16-6-09-5.jpg',
+    'splash-desno_16-6-09-6.jpg',
+    'splash-desno_16-6-09-7.jpg',
+    'splash-desno_16-6-09-8.jpg',
+    'splash-desno_16-6-09-9.jpg',
+    'splash-desno_16-6-09-10.jpg',
+    'splash-desno_16-6-09-11.jpg',
+    'splash-desno_16-6-09-13.jpg',
+    'splash-desno_16-6-09-14.jpg']) }}" class="fr-fic fr-dib img-fluid">";s:4:"code";N;s:7:"viewBag";a:2:{s:11:"snippetCode";s:20:"kariera-random-image";s:11:"snippetName";s:22:"Kariera - random image";}}}

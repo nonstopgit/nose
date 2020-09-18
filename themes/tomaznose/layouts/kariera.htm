@@ -1,0 +1,103 @@
+description = "kariera"
+
+[staticPage]
+useContent = 1
+default = 1
+==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="{{ [
+      'assets/vendor/bootstrap/dist/css/bootstrap.min.css',
+      'assets/vendor/font-awesome/css/font-awesome.min.css',
+      'assets/vendor/animate.css/animate.min.css',
+      'assets/vendor/plyr/dist/plyr.css',
+      'assets/css/custom.css'
+    ]|theme }}" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    {% styles %}
+
+  </head>
+  <body>
+  
+    {% partial 'navbar' %}
+
+    {#% partial 'jumbotron' %#}
+
+  <section id="page">
+
+    <div class="container">
+
+      <br><br><br><br>
+      {#% set mylist = [1,2,3,4,5] %}
+      <h1>
+        {% for i in mylist %}
+          {{ i }}, 
+        {% endfor %}
+      </h1>#}
+      {% page %}
+
+    </div>
+
+  </section>
+
+  {% partial 'footer' %}
+
+    <script src="{{ [
+      'assets/vendor/jquery/dist/jquery.min.js',
+      'assets/vendor/tether/dist/js/tether.min.js',
+      'assets/vendor/bootstrap/dist/js/bootstrap.min.js',
+      'assets/vendor/wow/dist/wow.min.js',
+      'assets/vendor/holderjs/holder.min.js',
+      'assets/vendor/plyr/dist/plyr.js',
+      'assets/js/scripts.js'
+    ]|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+    <script>
+      $(document).ready(() => {
+        let url = location.href.replace(/\/$/, "");
+      
+        if (location.hash) {
+          const hash = url.split("#");
+          $('#pills-tab a[href="#'+hash[1]+'"]').tab("show");
+          url = location.href.replace(/\/#/, "#");
+          history.replaceState(null, null, url);
+          setTimeout(() => {
+            $(window).scrollTop(0);
+          }, 400);
+        } 
+        
+        $('a[data-toggle="tab"]').on("click", function() {
+          let newUrl;
+          const hash = $(this).attr("href");
+          if(hash == "#home") {
+            newUrl = url.split("#")[0];
+          } else {
+            newUrl = url.split("#")[0] + hash;
+          }
+          newUrl += "/";
+          history.replaceState(null, null, newUrl);
+        });
+      });
+
+        $(document).ready(function () {
+
+            $('.navbar-toggler').on('click', function () {
+
+                $('.animated-icon').toggleClass('open');
+            });
+
+        });
+        /*$(function () {
+            $('#myList a:last-child').tab('show')
+        })*/
+    </script>
+  </body>
+</html>

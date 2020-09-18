@@ -1,0 +1,129 @@
+1600440987a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1749:"description = "default"
+
+[staticPage]
+useContent = 1
+default = 1
+==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="{{ [
+      'assets/vendor/bootstrap/dist/css/bootstrap.min.css',
+      'assets/vendor/font-awesome/css/font-awesome.min.css',
+      'assets/vendor/animate.css/animate.min.css',
+      'assets/vendor/plyr/dist/plyr.css',
+      'assets/css/custom.css'
+    ]|theme }}" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    {% styles %}
+
+  </head>
+  <body>
+  
+    {% partial 'navbar' %}
+
+    {#% partial 'jumbotron' %#}
+
+    {#variable name="galleryId" label="Gallery" tab="Gallery" type="gallery" placement="primary"}{/variable#}
+
+    <section id="page">
+
+      <div class="container">
+        <br><br><br><br>
+        {% page %}
+      </div>
+
+    </section>
+
+    {% partial 'footer' %}
+
+    <script src="{{ [
+      'assets/vendor/jquery/dist/jquery.min.js',
+      'assets/vendor/tether/dist/js/tether.min.js',
+      'assets/vendor/bootstrap/dist/js/bootstrap.min.js',
+      'assets/vendor/wow/dist/wow.min.js',
+      'assets/vendor/holderjs/holder.min.js',
+      'assets/vendor/plyr/dist/plyr.js',
+      'assets/js/scripts.js'
+    ]|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+    <script>
+      $(document).ready(function () {
+
+      $('.navbar-toggler').on('click', function () {
+
+        $('.animated-icon').toggleClass('open');
+      });
+
+      });
+    </script>
+  </body>
+</html>";s:5:"mtime";i:1600407115;s:6:"markup";s:1675:"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="{{ [
+      'assets/vendor/bootstrap/dist/css/bootstrap.min.css',
+      'assets/vendor/font-awesome/css/font-awesome.min.css',
+      'assets/vendor/animate.css/animate.min.css',
+      'assets/vendor/plyr/dist/plyr.css',
+      'assets/css/custom.css'
+    ]|theme }}" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    {% styles %}
+
+  </head>
+  <body>
+  
+    {% partial 'navbar' %}
+
+    {#% partial 'jumbotron' %#}
+
+    {#variable name="galleryId" label="Gallery" tab="Gallery" type="gallery" placement="primary"}{/variable#}
+
+    <section id="page">
+
+      <div class="container">
+        <br><br><br><br>
+        {% page %}
+      </div>
+
+    </section>
+
+    {% partial 'footer' %}
+
+    <script src="{{ [
+      'assets/vendor/jquery/dist/jquery.min.js',
+      'assets/vendor/tether/dist/js/tether.min.js',
+      'assets/vendor/bootstrap/dist/js/bootstrap.min.js',
+      'assets/vendor/wow/dist/wow.min.js',
+      'assets/vendor/holderjs/holder.min.js',
+      'assets/vendor/plyr/dist/plyr.js',
+      'assets/js/scripts.js'
+    ]|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+    <script>
+      $(document).ready(function () {
+
+      $('.navbar-toggler').on('click', function () {
+
+        $('.animated-icon').toggleClass('open');
+      });
+
+      });
+    </script>
+  </body>
+</html>";s:4:"code";N;s:11:"description";s:7:"default";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"1";}}}

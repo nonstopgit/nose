@@ -1,0 +1,48 @@
+description = "Gallery - Partial"
+
+[viewBag]
+snippetCode = "gallery-partial"
+snippetName = "Gallery Partial"
+snippetProperties[galleryname][title] = "galleryname"
+snippetProperties[galleryname][type] = "dropdown"
+snippetProperties[galleryname][default] = "omeni"
+snippetProperties[galleryname][options][o-meni] = "o-meni"
+snippetProperties[galleryname][options][klub] = "klub"
+
+[Gallery]
+idGallery = "{{ galleryname }}"
+slug = "{{ :slug }}"
+maxDimension = 640
+==
+{#<h2>--{{ galleryname }}--</h2>#}
+<h2>Foto</h2>
+<div class="row gallery" id="lg-{{ galleryname }}">
+	{% if gallery.images %}		
+		{% for image in gallery.images %}
+			<div class="col-6 col-sm-4 col-md-3 col-lg-2 cell" data-src="{{image.path}}" data-sub-html="{{image.title}}">
+				<a href="" title="{{image.title}}"><div class="box" style="background:url({{image.path|resize(Gallery.properties.maxDimension)}}) no-repeat 50% 50%; background-size: cover;"></div></a>
+			</div>
+		{% endfor %}
+	{% endif %}
+</div>
+
+{% put styles %}
+    <link href="{{ 'assets/vendor/lightgallery/dist/css/lightgallery.css'|theme }}" rel="stylesheet" />
+{% endput %}
+{% put scripts %}
+	<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+	<script>
+		lightGallery(document.getElementById('lg-{{ galleryname }}'));
+		/*$('#lightgallery').lightGallery({
+			thumbnail: true,
+			animateThumb : true
+		}); */
+	</script>
+{% endput %}

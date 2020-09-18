@@ -1,0 +1,23 @@
+1600440987a:1:{s:15:"news-latest.htm";a:8:{s:8:"fileName";s:15:"news-latest.htm";s:7:"content";s:424:"description = "News latest"
+
+[viewBag]
+snippetCode = "news-latest"
+snippetName = "News latest"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "novice"
+postPage = "novice"
+==
+{% for post in blogPosts.posts %}
+    <a href="novica/{{ post.slug }}">{{ post.title }}</a><br>
+{% endfor %}
+
+{#{ d(blogPosts) }#}{#% component 'blogPosts' %#}";s:5:"mtime";i:1600439713;s:6:"markup";s:159:"{% for post in blogPosts.posts %}
+    <a href="novica/{{ post.slug }}">{{ post.title }}</a><br>
+{% endfor %}
+
+{#{ d(blogPosts) }#}{#% component 'blogPosts' %#}";s:4:"code";N;s:11:"description";s:11:"News latest";s:7:"viewBag";a:2:{s:11:"snippetCode";s:11:"news-latest";s:11:"snippetName";s:11:"News latest";}s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:1:"5";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:6:"novice";s:8:"postPage";s:6:"novice";}}}

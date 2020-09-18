@@ -1,0 +1,50 @@
+1600440976a:1:{s:8:"klub.htm";a:7:{s:8:"fileName";s:8:"klub.htm";s:7:"content";s:906:"[viewBag]
+title = "klub"
+url = "/klub"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+==
+<p style="text-align: center;"><img src="/storage/app/media/besedila/090612121520_splash-klub.jpg" class="fr-fic fr-dib img-fluid"></p>
+
+<h1>Klub</h1>
+<div class="row">
+	<div class="col-12 col-md-6">
+
+		<p>Trenutno sem član Kolesarskega kluba Adria Mobil iz Novega mesta.</p>
+
+		<p><a href="https://www.adria-mobil-cycling.com/" target="_blank">www.adria-mobil-cycling.com</a></p>
+	</div>
+	<div class="col-12 col-md-6">
+
+		<p>V klubu, ki je medtem tudi menjal ime, sem z manjšimi prekinitvami že od leta 1993. Med tem sem kolesaril tudi v švicarskem klubu Phonak, vendar sem vse svoje najboljše rezultate dosegel ravno v novomeškem klubu.</p>
+	</div></div>
+<figure data-inspector-id="inspectorid-224291281977" data-property-galleryname="klub" data-snippet="gallery-partial">&nbsp;</figure>";s:5:"mtime";i:1600344580;s:6:"markup";s:809:"<p style="text-align: center;"><img src="/storage/app/media/besedila/090612121520_splash-klub.jpg" class="fr-fic fr-dib img-fluid"></p>
+
+<h1>Klub</h1>
+<div class="row">
+	<div class="col-12 col-md-6">
+
+		<p>Trenutno sem član Kolesarskega kluba Adria Mobil iz Novega mesta.</p>
+
+		<p><a href="https://www.adria-mobil-cycling.com/" target="_blank">www.adria-mobil-cycling.com</a></p>
+	</div>
+	<div class="col-12 col-md-6">
+
+		<p>V klubu, ki je medtem tudi menjal ime, sem z manjšimi prekinitvami že od leta 1993. Med tem sem kolesaril tudi v švicarskem klubu Phonak, vendar sem vse svoje najboljše rezultate dosegel ravno v novomeškem klubu.</p>
+	</div></div>
+<figure data-inspector-id="inspectorid-224291281977" data-property-galleryname="klub" data-snippet="gallery-partial">&nbsp;</figure>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:4:"klub";s:3:"url";s:5:"/klub";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:809:"<p style="text-align: center;"><img src="/storage/app/media/besedila/090612121520_splash-klub.jpg" class="fr-fic fr-dib img-fluid"></p>
+
+<h1>Klub</h1>
+<div class="row">
+	<div class="col-12 col-md-6">
+
+		<p>Trenutno sem član Kolesarskega kluba Adria Mobil iz Novega mesta.</p>
+
+		<p><a href="https://www.adria-mobil-cycling.com/" target="_blank">www.adria-mobil-cycling.com</a></p>
+	</div>
+	<div class="col-12 col-md-6">
+
+		<p>V klubu, ki je medtem tudi menjal ime, sem z manjšimi prekinitvami že od leta 1993. Med tem sem kolesaril tudi v švicarskem klubu Phonak, vendar sem vse svoje najboljše rezultate dosegel ravno v novomeškem klubu.</p>
+	</div></div>
+<figure data-inspector-id="inspectorid-224291281977" data-property-galleryname="klub" data-snippet="gallery-partial">&nbsp;</figure>";}}

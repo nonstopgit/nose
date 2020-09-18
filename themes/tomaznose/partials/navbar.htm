@@ -1,0 +1,28 @@
+description = "Navigation bar"
+
+[viewBag]
+
+[staticMenu]
+code = "menu"
+==
+
+<section>	
+	<nav class="navbar navbar-expand-md fixed-top">
+		<div class="container">
+			<a class="navbar-brand font-weight-bold" href="/">Tomaž Nose</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<!--span class="navbar-toggler-icon"></span-->
+				<div class="animated-icon"><span></span><span></span><span></span></div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="nav navbar-nav ml-auto">
+					{% for item in staticMenu.menuItems %}
+						<li class="nav-item{% if item.isActive or item.isChildActive %} active{% endif %}">
+							<a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</nav>
+</section>
